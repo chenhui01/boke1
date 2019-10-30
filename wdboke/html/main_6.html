@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>给我留言</title>
+<style>
+*{ margin:0; padding:0;}
+body{ margin:5% 0 0 30%; background:#6CF; color:#000;}
+p{ margin:3%;}
+</style>
+</head>
+
+<body>
+<!-- 1.表单元素
+用来声明数据提交的范围
+只有在此元素内的数据可以提交给服务器 -->
+<!-- action属性用来声明数据提交的目标 -->
+<form action="http://www.baidu.com">
+<!-- 2.表单控件
+用来让用户输入数据的
+1）input元素（9个 ），它们之间用type元素区分-->
+<!-- 文本框
+value:设置默认值 maxlength:设置最大长度 readonly:设置只读 -->
+<!-- 单选框 name:组名。同一组名互相排斥
+checked设置默认选中-->
+<h2>请把你信息留哈</h2>
+<p>
+性别:
+<input type="radio" name="sex" checked="checked"/>男
+<input type="radio" name="sex"/>女
+</p>
+<!-- 多选框 checked:设置默认选中 -->
+<p>
+兴趣爱好:
+<input type="checkbox" checked="checked"/>音乐
+<input type="checkbox" checked="checked"/>看书
+<input type="checkbox"/>打球
+</p>
+ 
+<!-- 文件框 -->
+<p>
+头像上传:<input type="file"/>
+</p>
+ 
+<!-- 隐藏框 -->
+<p>
+<input type="hidden" value="abc"/>
+</p>
+<!-- select:下拉选 selected:设置默认选中 -->
+<p>
+哪里的:
+<select>
+<option>请选择</option>
+<option selected="selected">白沙镇</option>
+<option>兴隆场</option>
+<option>浦市镇</option>
+<option>白羊溪</option>
+<option>武溪镇</option>
+<option>达岚镇</option>
+<option>石榴坪乡</option>
+<option>合水镇</option>
+<option>洗溪镇</option>
+<option>潭溪镇</option>
+<option>八什坪乡</option>
+<option>上堡乡</option>
+<option>小章乡</option>
+<option>梁家潭乡</option>
+<option>解放岩乡</option>
+<option>永兴场乡</option>
+<option>踏虎乡</option>
+<option>长坪乡</option>
+</select>
+</p>
+<!-- textarea:文本域 -->
+<p>
+<h2>给我留言<br>
+<textarea rows="10" cols="100">这是文本域的默认值</textarea>
+</h2>
+</body>
+</html>

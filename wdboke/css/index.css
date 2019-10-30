@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+  }
+  html,body{
+	height:100%;
+}
+body{	background:url(../img/t01ffa26ea20bcab63d.jpg);}  
+.parameter .It_is_my_life_mv ul li a:hover,.parameter .article p a:hover,.parameter .friendly_link p a:hover{
+	color:#00F;}
+.subject{
+	margin:0 auto;
+	width:1000px;
+	height:auto;
+	}
+.glbalink{
+	width:1000px;
+	height:258px;
+	background:url(../img/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_01.jpg);
+	}
+.nav{
+	width:1000px;
+	height:39px;
+    background:#a2caed;
+	}
+.nav ul{float:right;}
+.nav ul li{
+	width:105px;
+	list-style:none;
+	float:left;
+    margin-top:10px;
+	text-align:center;
+	}
+.nav ul li a{
+	font:22px "楷体";
+	text-decoration:none;
+    color:#00607c;
+	}
+.nav ul li a:hover,.nav ul .hover a{
+	color:#FFF;}
+.parameter{
+	width:286px;
+	height:1200px;
+	background:url(../img/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A210.jpg);
+	float:left;
+	}
+.parameter .user .我的博客_02{
+	margin-top:32px;
+	}
+.parameter .user .xian1{
+	margin-top:9px;
+	}
+.parameter .user .font{
+	font:28px "楷体";
+	margin:6px 0px 0px 65px;
+}
+.parameter .user .xian2{
+	margin-top:5px;
+	}
+.parameter .It_is_my_life_mv{
+	margin-top:53px;
+	width:286px;
+	height:95px;
+	}
+.parameter .It_is_my_life_mv .font{
+	font:20px "楷体";
+	background:url(../img/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_03.jpg) no-repeat;
+	margin-left:23px;
+	}
+.parameter .It_is_my_life_mv ul{
+	width:286px;
+	list-style:none;
+	margin-top:10px;
+	}
+.parameter .It_is_my_life_mv ul li{
+	float:left;
+	border:none;
+	margin-left:23px;
+	}
+.parameter .It_is_my_life_mv ul li a{
+	font-family:"楷体";
+	font-size:14px;
+	text-decoration:none;
+	color:#000;
+	}
+.parameter .article .font{
+	font:20px "楷体";
+	background:url(../img/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_03.jpg) no-repeat;
+	margin-left:23px;
+	margin-top:42px;
+	}
+.parameter .article p{
+	margin:10px 0px 0px 23px;
+	font:15px "楷体";
+	list-style:none;
+	}
+.parameter .article p a{
+	text-decoration:none;
+	color:#000;
+	}
+.parameter .friendly_link .font{
+	font:20px "楷体";
+	background:url(../img/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_03.jpg) no-repeat;
+	margin-left:23px;
+	margin-top:42px;
+	}
+.parameter .friendly_link p{
+	margin:10px 0px 0px 23px;
+	font:15px "楷体";
+	list-style:none;
+	}
+.parameter .friendly_link p a{
+	text-decoration:none;
+	color:#000;
+	}
+.main{width:714px;
+      height:1200px;
+	  float:left;
+	  background:#FFF;
+}
+.main .mainkuang{
+	float:left;
+	margin:32px 13px 0px 0px;
+	height:1008px;
+	}
+.main .text_1 p{
+	width:635px;
+	font:16px "楷体";
+	float:right;
+	line-height:30px;
+		}
+.main .text_1 .h1{
+	font:20px "楷体";
+	color:#b2171b;
+	}
+.main .text_1 .xuxian{
+	width:629px;
+    height:0;
+	float:right;
+    border-bottom:#000000 1px dashed;
+	margin:4px 13px 0px 0px;
+	}
+.main .text_1 .h2{
+	font:10px "楷体";
+	float:right;
+	margin:4px 13px 0px 0px;
+	color:#999;
+	}
+.main .text_1 a{
+	font:10px;
+	float:right;
+	color:#999;
+	}
+.main .text_2 p{
+	margin-right:13px;
+	width:635px;
+	font:16px "楷体";
+	float:right;
+		}
+.main .text_2 .p{
+	margin-top:20px;
+	}
+.main .text_2 .h1{
+	font:20px "楷体";
+	color:#b2171b;
+	margin-top:31px;
+	}
+.main .text_2 .xuxian{
+	width:629px;
+    height:0;
+	float:right;
+    border-bottom:#000000 1px dashed;
+	margin:4px 13px 0px 0px;
+	}
+.main .text_2 .h2{
+	font:10px "楷体";
+	float:right;
+	margin:4px 13px 0px 0px;
+	color:#999;
+	}
+.main .text_2 p a{
+	font:10px;
+	color:#999;
+	margin-top:20px;
+	float:right;
+	}	
+.footer{
+	width:1000px;
+	height:38px;
+	background:#a2caed;
+	clear:both;/*清除浮动*/
+	}
+.footer p{
+	font:17px "楷体";
+	text-align:center;
+	line-height:38px;
+	}
